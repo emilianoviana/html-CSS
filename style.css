@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+}
+
+.content {
+  margin-top: 3%;
+}
+
+.wrapper {
+  width: 80%;
+  margin: auto;
+}
+
+header img {
+  width: 100px;
+  float: left;
+}
+
+heade h1 {
+  margin-left: 3%;
+}
+
+nav {
+  clear: both;
+}
+
+nav ul {
+  margin-top: 3%;
+}
+
+section {
+  margin-top: 3%;
+}
+
+footer {
+  margin: 2%;
+  text-align: end;
+}
+
+section p {
+  margin top: 5%;
+}
+
+#paragraf {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.huruf {
+  font-size: 20px;
+}
+
+.warna {
+  background: darkkhaki;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background: wheat;
+  list-style: none;
+  margin: 10px;
+  padding-left: 10px;
+}
+
+ul li {
+  color: #fff;
+  background: orangered;
+  display: inline-block;
+  border: 1px beige;
+  padding: 10px;
+  position: relative;
+  text-decoration: none;
+}
+
+ul li a {
+  color: #fff;
+}
+
+ul li:hover {
+  background: red;
+  cursor: pointer;
+}
+
+ul li ul {
+  background: orangered;
+  visibility: hidden;
+  position: absolute;
+  margin top: 1 rem;
+  left:0;
+  display: none;
+}
+
+ul li:hover >ul,
+ul li ul :hover {
+  visibility: visible;
+  display: block;
+}
+
+ul li ul li {
+  clear: both;
+  width: 100%;
+}
+
+@media only screen and (max-width : 600px){
+  body {
+    background: darksalmon;
+    font-family: sans-serif;
+  }
+}
